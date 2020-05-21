@@ -34,5 +34,7 @@ git add . - adicionar arquivos para subir
 git commit -m "msg para descrever o que é" - msg 
 git push - upar o seu projeto
 
-//
-git checkout -b 'nome da branch(sem aspas simples)'
+//meio
+git checkout -b 'nome da branch(sem aspas simples)' - cria um novo ramo
+git push --set-upstream origin 'nome da branch' - sobe para um ramo provisório
+git pull - baixar a última versão
