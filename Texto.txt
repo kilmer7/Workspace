@@ -16,12 +16,21 @@ Atualizar alguma coisa
 
 //Passo 1º
 -----------------------------------------------------------------------------
-git checkout -b 'nome da branch(sem aspas simples)' - cria um novo ramo || git checkout 'nome da branch(sem aspas simples)' - entra no ramo que já existe
+git checkout 'nome da branch(sem aspas simples)' - entra no ramo que já existe
+git add . - adicionar arquivos para subir
+git commit -m "msg" - msg descrevendo qual foi a mudança
+git push origin 'nome da branch' - sobe o projeto para a branch
+-----------------------------------------------------------------------------
+
+Outra forma de atualizar alguma coisa
+
+//Passo 2º
+-----------------------------------------------------------------------------
+git checkout -b 'nome da branch(sem aspas simples)' - cria um novo ramo
 git add . - adicionar arquivos para subir
 git commit -m "msg" - msg descrevendo qual foi a mudança
 git push --set-upstream origin 'nome da branch' - sobe para o ramo e inicia um pull request
 -----------------------------------------------------------------------------
-git push - upar o seu projeto
 
 1º abri o bash no diretorio do projeto, se vc estiver no diretorio certo vai aparecer a branch que vc esta trabalhando no final entre parente, no caso agora vc ta na master
 
