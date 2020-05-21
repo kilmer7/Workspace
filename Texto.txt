@@ -1,17 +1,27 @@
 android...
 
-…or create a new repository on the command line
+//Inicio
+-----------------------------------------------------------------------------
+Create a new repository on the command line:
+
 echo "# workspace_android" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/kilmer7/workspace_android.git
 git push -u origin master
-                
-…or push an existing repository from the command line
+-----------------------------------------------------------------------------
+or push an existing repository from the command line:
+
 git remote add origin https://github.com/kilmer7/workspace_android.git
 git push -u origin master
+-----------------------------------------------------------------------------
 
+//Meio
+-----------------------------------------------------------------------------
+git add . - adicionar arquivos para subir
+git commit -m "msg para descrever o que é" - msg 
+-----------------------------------------------------------------------------
 
 1º abri o bash no diretorio do projeto, se vc estiver no diretorio certo vai aparecer a branch que vc esta trabalhando no final entre parente, no caso agora vc ta na master
 
@@ -29,12 +39,9 @@ git push -u origin master
 
 8º git pull oringin  master , para atualizar a master local
 
-//Inicio
-git add . - adicionar arquivos para subir
-git commit -m "msg para descrever o que é" - msg 
+
+
 git push - upar o seu projeto
 
-//meio
-git checkout -b 'nome da branch(sem aspas simples)' - cria um novo ramo
-git push --set-upstream origin 'nome da branch' - sobe para um ramo provisório
-git pull - baixar a última versão
+//
+git checkout -b 'nome da branch(sem aspas simples)'
