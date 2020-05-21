@@ -43,6 +43,6 @@ Independente de qual passo vc fez, esse deve ser feito.
 
 //Passo 3º
 -----------------------------------------------------------------------------
-git checkout origin master - troca para o ramo master
-git pull origin master - atualizaa a master local
+git checkout master - troca para o ramo master
+git pull - atualizaa a master local
 -----------------------------------------------------------------------------
