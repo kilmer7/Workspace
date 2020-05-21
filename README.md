@@ -1,4 +1,3 @@
-# workspace_android
-Projetos Android
+# Projetos Android
 
 Todos os meus projetos de android e afins serão colocados nesse repositório.
