@@ -1,1 +1,38 @@
 android...
+
+…or create a new repository on the command line
+echo "# workspace_android" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kilmer7/workspace_android.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/kilmer7/workspace_android.git
+git push -u origin master
+
+
+1º abri o bash no diretorio do projeto, se vc estiver no diretorio certo vai aparecer a branch que vc esta trabalhando no final entre parente, no caso agora vc ta na master
+
+2º execute git checkout -b "nome da nova branch" , para mudar para uma nova branch
+
+3º git add . para subir todas as alterações feitas
+
+4º git commit , ira abri a tela no bash para escrever o commit, aperte "insert" para poder escrever, despois de escrever bunitinho, aperta "esc" e  depois digite :wq para  sair e salvar o commit
+
+5º git push origin "nome da branch que vc quer subir"
+
+6º dentro do git hub tu mergea oque vc acabou de subir com a master
+
+7º git checkout oringin master
+
+8º git pull oringin  master , para atualizar a master local
+
+//Inicio
+git add . - adicionar arquivos para subir
+git commit -m "msg para descrever o que é" - msg 
+git push - upar o seu projeto
+
+//
+git checkout -b 'nome da branch(sem aspas simples)'
