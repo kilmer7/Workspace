@@ -4,7 +4,7 @@ android...
 -----------------------------------------------------------------------------
 Create a new repository on the command line:
 
-echo "# workspace_android" >> README.md
+echo '# nome que vc escolher' >> README.md
 git init
 git add README.md
 git commit -m "first commit"
@@ -44,5 +44,5 @@ Independente de qual passo vc fez, esse deve ser feito.
 //Passo 3º
 -----------------------------------------------------------------------------
 git checkout master - troca para o ramo master
-git pull - atualizaa a master local
+git pull - atualiza a master local
 -----------------------------------------------------------------------------
